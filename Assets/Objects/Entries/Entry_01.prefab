@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7848683099758797264
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5617425238541259722}
+  - component: {fileID: 8866825835356444430}
+  - component: {fileID: 931839078764184160}
+  m_Layer: 0
+  m_Name: Entry_01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5617425238541259722
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7848683099758797264}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8866825835356444430
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7848683099758797264}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2eb833695e5630b4c935428f8a994e45, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  text: "\r\n\r\n    Imagine you are reading really great introductory material that
+    establishes characters, environments, and goals etc. To make it feel even more
+    impressive, I\u2019ve added a couple of paragraphs of placeholder text. All you
+    need to do is click \u201CNext\u201D below to test that we can go from one entry
+    to another.\r\n\r\n    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    Quisque eu ornare nulla. Nam vulputate mauris quis massa vestibulum, a aliquet
+    augue mattis. Morbi egestas augue sapien, malesuada bibendum ligula mollis dignissim.
+    In vestibulum neque tempus augue tempus, non pretium leo dapibus. Integer id
+    diam lorem. Suspendisse velit neque, porta a convallis pretium, vulputate sit
+    amet felis. Cras non rutrum erat. Aliquam vehicula erat mollis urna ullamcorper,
+    ac viverra justo accumsan. Nunc at neque vel libero lacinia faucibus. Maecenas
+    vel pulvinar sem, sed malesuada sapien. Nullam consectetur pulvinar orci, nec
+    dapibus tortor ullamcorper sit amet. Duis non iaculis arcu. Quisque volutpat
+    nunc nec tellus facilisis feugiat. Nullam vitae tempus erat. Vivamus malesuada
+    nisl sed pulvinar euismod.\r\n\r\n    Praesent tempus, nisl at lacinia tincidunt,
+    diam nisi tincidunt massa, quis fringilla lorem massa ut mi. Phasellus mattis
+    quis nulla ac auctor. Ut malesuada, diam in porttitor cursus, libero lacus rutrum
+    lacus, eu pretium orci urna nec lectus. Donec tempor quam mi, tempus porttitor
+    est sodales vel. Nulla vel congue sapien, quis sollicitudin mi. Proin tincidunt
+    elementum dolor, eget venenatis massa pharetra non. Vivamus cursus vel orci id
+    hendrerit. Integer at velit mollis, feugiat ante non, dignissim arcu. Maecenas
+    condimentum eget tortor eget congue. Aenean quis nunc nec lectus consectetur
+    gravida vitae sit amet nulla. Vestibulum et purus ultrices, gravida turpis in,
+    imperdiet elit. Mauris nisl neque, facilisis at arcu ut, sodales posuere mi.
+    Duis magna lacus, ornare eu lorem pharetra, gravida tincidunt lacus. Donec eget
+    sapien sapien.\r\n"
+--- !u!114 &931839078764184160
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7848683099758797264}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3fbcd84d3ddf2c14bb5c5714639454d0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  text: Next
+  entryName: Entry_02
