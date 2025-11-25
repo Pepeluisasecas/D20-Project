@@ -4,6 +4,8 @@ public static class ComponentInjector
     {
         AbilityScoreInjector.Inject();
         IAdventureItemSystem.Register(new AdventureItemSystem());
+        ILevelSystem.Register(new LevelSystem());
         INameSystem.Register(new NameSystem());
+        SkillsInjector.Inject();
     }
 }
